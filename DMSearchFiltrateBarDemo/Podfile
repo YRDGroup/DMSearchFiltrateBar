@@ -1,0 +1,3 @@
+target 'DMSearchFiltrateBarDemo' do
+  pod 'Masonry'
+end

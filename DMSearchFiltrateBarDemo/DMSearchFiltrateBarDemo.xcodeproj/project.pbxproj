@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571E352EE9B763E79C2608A4 /* libPods-DMSearchFiltrateBarDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DCB97E6A1CAEE4EF365655D /* libPods-DMSearchFiltrateBarDemo.a */; };
+		EB21ED831F219DBB00ED579C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21ED821F219DBB00ED579C /* main.m */; };
+		EB21ED861F219DBB00ED579C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21ED851F219DBB00ED579C /* AppDelegate.m */; };
+		EB21ED891F219DBB00ED579C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21ED881F219DBB00ED579C /* ViewController.m */; };
+		EB21ED8C1F219DBB00ED579C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB21ED8A1F219DBB00ED579C /* Main.storyboard */; };
+		EB21ED8E1F219DBB00ED579C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB21ED8D1F219DBB00ED579C /* Assets.xcassets */; };
+		EB21ED911F219DBB00ED579C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB21ED8F1F219DBB00ED579C /* LaunchScreen.storyboard */; };
+		EB21ED9B1F219F7F00ED579C /* DMSearchFiltrateBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21ED9A1F219F7F00ED579C /* DMSearchFiltrateBarButton.m */; };
+		EB21ED9F1F21AB6800ED579C /* DMSearchFiltrateBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21ED9E1F21AB6800ED579C /* DMSearchFiltrateBar.m */; };
+		EB21EDA21F21C44500ED579C /* DMSearchFiltrateBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21EDA11F21C44500ED579C /* DMSearchFiltrateBarConfig.m */; };
+		EB21EDA51F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21EDA41F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.m */; };
+		EB21EDA81F21CEB100ED579C /* DMSearchFiltrateDataPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB21EDA71F21CEB100ED579C /* DMSearchFiltrateDataPanelView.m */; };
+		EB21EDAA1F21CEC700ED579C /* DMSearchFiltrateDataPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB21EDA91F21CEC700ED579C /* DMSearchFiltrateDataPanelView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		497E7F6EC6F5FB85EC6288E9 /* Pods-DMSearchFiltrateBarDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMSearchFiltrateBarDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMSearchFiltrateBarDemo/Pods-DMSearchFiltrateBarDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		88450889C911834C059256A2 /* Pods-DMSearchFiltrateBarDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMSearchFiltrateBarDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMSearchFiltrateBarDemo/Pods-DMSearchFiltrateBarDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8DCB97E6A1CAEE4EF365655D /* libPods-DMSearchFiltrateBarDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DMSearchFiltrateBarDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB21ED7E1F219DBB00ED579C /* DMSearchFiltrateBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMSearchFiltrateBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB21ED821F219DBB00ED579C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB21ED841F219DBB00ED579C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB21ED851F219DBB00ED579C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB21ED871F219DBB00ED579C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB21ED881F219DBB00ED579C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB21ED8B1F219DBB00ED579C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB21ED8D1F219DBB00ED579C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB21ED901F219DBB00ED579C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB21ED921F219DBB00ED579C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB21ED991F219F7F00ED579C /* DMSearchFiltrateBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSearchFiltrateBarButton.h; sourceTree = "<group>"; };
+		EB21ED9A1F219F7F00ED579C /* DMSearchFiltrateBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSearchFiltrateBarButton.m; sourceTree = "<group>"; };
+		EB21ED9D1F21AB6800ED579C /* DMSearchFiltrateBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSearchFiltrateBar.h; sourceTree = "<group>"; };
+		EB21ED9E1F21AB6800ED579C /* DMSearchFiltrateBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSearchFiltrateBar.m; sourceTree = "<group>"; };
+		EB21EDA01F21C44500ED579C /* DMSearchFiltrateBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSearchFiltrateBarConfig.h; sourceTree = "<group>"; };
+		EB21EDA11F21C44500ED579C /* DMSearchFiltrateBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSearchFiltrateBarConfig.m; sourceTree = "<group>"; };
+		EB21EDA31F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSearchFiltrateBarButtonConfig.h; sourceTree = "<group>"; };
+		EB21EDA41F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSearchFiltrateBarButtonConfig.m; sourceTree = "<group>"; };
+		EB21EDA61F21CEB100ED579C /* DMSearchFiltrateDataPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMSearchFiltrateDataPanelView.h; sourceTree = "<group>"; };
+		EB21EDA71F21CEB100ED579C /* DMSearchFiltrateDataPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMSearchFiltrateDataPanelView.m; sourceTree = "<group>"; };
+		EB21EDA91F21CEC700ED579C /* DMSearchFiltrateDataPanelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DMSearchFiltrateDataPanelView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB21ED7B1F219DBB00ED579C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571E352EE9B763E79C2608A4 /* libPods-DMSearchFiltrateBarDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F4E6D8BF3E04D1E1E20CB96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DCB97E6A1CAEE4EF365655D /* libPods-DMSearchFiltrateBarDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F8D08ABD6302386BF6B4E66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				497E7F6EC6F5FB85EC6288E9 /* Pods-DMSearchFiltrateBarDemo.debug.xcconfig */,
+				88450889C911834C059256A2 /* Pods-DMSearchFiltrateBarDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB21ED751F219DBB00ED579C = {
+			isa = PBXGroup;
+			children = (
+				EB21ED801F219DBB00ED579C /* DMSearchFiltrateBarDemo */,
+				EB21ED7F1F219DBB00ED579C /* Products */,
+				0F8D08ABD6302386BF6B4E66 /* Pods */,
+				0F4E6D8BF3E04D1E1E20CB96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB21ED7F1F219DBB00ED579C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB21ED7E1F219DBB00ED579C /* DMSearchFiltrateBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB21ED801F219DBB00ED579C /* DMSearchFiltrateBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EB21ED981F219E5300ED579C /* DMSearchFiltrateBar */,
+				EB21ED841F219DBB00ED579C /* AppDelegate.h */,
+				EB21ED851F219DBB00ED579C /* AppDelegate.m */,
+				EB21ED871F219DBB00ED579C /* ViewController.h */,
+				EB21ED881F219DBB00ED579C /* ViewController.m */,
+				EB21ED8A1F219DBB00ED579C /* Main.storyboard */,
+				EB21ED8D1F219DBB00ED579C /* Assets.xcassets */,
+				EB21ED8F1F219DBB00ED579C /* LaunchScreen.storyboard */,
+				EB21ED921F219DBB00ED579C /* Info.plist */,
+				EB21ED811F219DBB00ED579C /* Supporting Files */,
+			);
+			path = DMSearchFiltrateBarDemo;
+			sourceTree = "<group>";
+		};
+		EB21ED811F219DBB00ED579C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB21ED821F219DBB00ED579C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB21ED981F219E5300ED579C /* DMSearchFiltrateBar */ = {
+			isa = PBXGroup;
+			children = (
+				EB21EDA31F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.h */,
+				EB21EDA41F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.m */,
+				EB21EDA01F21C44500ED579C /* DMSearchFiltrateBarConfig.h */,
+				EB21EDA11F21C44500ED579C /* DMSearchFiltrateBarConfig.m */,
+				EB21ED991F219F7F00ED579C /* DMSearchFiltrateBarButton.h */,
+				EB21ED9A1F219F7F00ED579C /* DMSearchFiltrateBarButton.m */,
+				EB21ED9D1F21AB6800ED579C /* DMSearchFiltrateBar.h */,
+				EB21ED9E1F21AB6800ED579C /* DMSearchFiltrateBar.m */,
+				EB21EDA61F21CEB100ED579C /* DMSearchFiltrateDataPanelView.h */,
+				EB21EDA71F21CEB100ED579C /* DMSearchFiltrateDataPanelView.m */,
+				EB21EDA91F21CEC700ED579C /* DMSearchFiltrateDataPanelView.xib */,
+			);
+			path = DMSearchFiltrateBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB21ED7D1F219DBB00ED579C /* DMSearchFiltrateBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB21ED951F219DBB00ED579C /* Build configuration list for PBXNativeTarget "DMSearchFiltrateBarDemo" */;
+			buildPhases = (
+				DE24151C2A1BA66BC3388C32 /* [CP] Check Pods Manifest.lock */,
+				EB21ED7A1F219DBB00ED579C /* Sources */,
+				EB21ED7B1F219DBB00ED579C /* Frameworks */,
+				EB21ED7C1F219DBB00ED579C /* Resources */,
+				81D879D442513E1E54F9E175 /* [CP] Embed Pods Frameworks */,
+				D8EC7ED7A33573DD638E3A1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DMSearchFiltrateBarDemo;
+			productName = DMSearchFiltrateBarDemo;
+			productReference = EB21ED7E1F219DBB00ED579C /* DMSearchFiltrateBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB21ED761F219DBB00ED579C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "YRHY Science and Technology (Beijing) Co., Ltd.";
+				TargetAttributes = {
+					EB21ED7D1F219DBB00ED579C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3AHZ82SGX3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB21ED791F219DBB00ED579C /* Build configuration list for PBXProject "DMSearchFiltrateBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB21ED751F219DBB00ED579C;
+			productRefGroup = EB21ED7F1F219DBB00ED579C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB21ED7D1F219DBB00ED579C /* DMSearchFiltrateBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB21ED7C1F219DBB00ED579C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB21ED911F219DBB00ED579C /* LaunchScreen.storyboard in Resources */,
+				EB21ED8E1F219DBB00ED579C /* Assets.xcassets in Resources */,
+				EB21ED8C1F219DBB00ED579C /* Main.storyboard in Resources */,
+				EB21EDAA1F21CEC700ED579C /* DMSearchFiltrateDataPanelView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81D879D442513E1E54F9E175 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMSearchFiltrateBarDemo/Pods-DMSearchFiltrateBarDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8EC7ED7A33573DD638E3A1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DMSearchFiltrateBarDemo/Pods-DMSearchFiltrateBarDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE24151C2A1BA66BC3388C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB21ED7A1F219DBB00ED579C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB21ED891F219DBB00ED579C /* ViewController.m in Sources */,
+				EB21EDA81F21CEB100ED579C /* DMSearchFiltrateDataPanelView.m in Sources */,
+				EB21EDA51F21C74D00ED579C /* DMSearchFiltrateBarButtonConfig.m in Sources */,
+				EB21ED9F1F21AB6800ED579C /* DMSearchFiltrateBar.m in Sources */,
+				EB21ED9B1F219F7F00ED579C /* DMSearchFiltrateBarButton.m in Sources */,
+				EB21EDA21F21C44500ED579C /* DMSearchFiltrateBarConfig.m in Sources */,
+				EB21ED861F219DBB00ED579C /* AppDelegate.m in Sources */,
+				EB21ED831F219DBB00ED579C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB21ED8A1F219DBB00ED579C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB21ED8B1F219DBB00ED579C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB21ED8F1F219DBB00ED579C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB21ED901F219DBB00ED579C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB21ED931F219DBB00ED579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB21ED941F219DBB00ED579C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB21ED961F219DBB00ED579C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497E7F6EC6F5FB85EC6288E9 /* Pods-DMSearchFiltrateBarDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				INFOPLIST_FILE = DMSearchFiltrateBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrdgroup.DMSearchFiltrateBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB21ED971F219DBB00ED579C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88450889C911834C059256A2 /* Pods-DMSearchFiltrateBarDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AHZ82SGX3;
+				INFOPLIST_FILE = DMSearchFiltrateBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrdgroup.DMSearchFiltrateBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB21ED791F219DBB00ED579C /* Build configuration list for PBXProject "DMSearchFiltrateBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB21ED931F219DBB00ED579C /* Debug */,
+				EB21ED941F219DBB00ED579C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB21ED951F219DBB00ED579C /* Build configuration list for PBXNativeTarget "DMSearchFiltrateBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB21ED961F219DBB00ED579C /* Debug */,
+				EB21ED971F219DBB00ED579C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB21ED761F219DBB00ED579C /* Project object */;
+}
